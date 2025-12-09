@@ -14,7 +14,7 @@ int main() {
   char estado2;
   char codigo2[5];
   char cidade2[50];
-  int população2;
+  int populacao2;
   float area2;
   float pib2;
   int pontos_turisticos2;
@@ -24,15 +24,15 @@ int main() {
   printf("-- Cadastro da Carta 1 -- ");
 
   printf("Digite a letra do estado (A a H): ");
-  scanf("%c" , &estado1);
+  scanf(" %c" , &estado1);
 
   printf("Digite o código da carta (ex: A01): ");
-  scanf("%s" , &codigo1);
+  scanf("%s" , codigo1);
 
   printf("Digite o nome da cidade: ");
-  scanf("%s" , &cidade1);
+  scanf("%s" , cidade1);
 
-  printf("Digite a população (Numero inteiro): ");
+  printf("Digite a população (Número inteiro): ");
   scanf("%d" , &populacao1);
 
 
@@ -52,11 +52,18 @@ int main() {
   printf("-- Cadastro da Carta 2 --");
 
   printf("Digite a letra do estado (A a H): ");
-  scanf("%c" , &estado2);
+  scanf(" %c" , &estado2);
 
-  pritnf("Digite o código da carta (Ex: B02): ")
-  scanf
+  printf("Digite o código da carta (Ex: B02): ");
+  scanf("%s" , codigo2);
 
+  printf("Digite o nome da cidade:");
+  scanf("%s" , cidade2);
+
+  printf("Digite a população (Número inteiro):");
+  scanf("%d" , &populacao2);
+
+  printf("Digite a área em Km² (Ex: 1550.3): ");
 
 
 
