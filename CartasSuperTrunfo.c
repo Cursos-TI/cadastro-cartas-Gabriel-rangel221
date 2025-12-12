@@ -35,10 +35,8 @@ int main() {
   printf("Digite a população (Número inteiro): ");
   scanf("%d" , &populacao1);
 
-
   printf("Digite a área em Km² (Ex:2119.2): ");
   scanf("%f" , &area1);
-
 
   printf ("Digite o PIB em bilhoes (ex: 696.97): ");
   scanf("%f" , &pib1);
@@ -75,14 +73,25 @@ int main() {
 
 
 //==== Exibição de cartas ====
+//==== Exibição da carta 1 ====
 printf("\n-- Carta 1 --\n");
 printf("Estado: %c\n", estado1);
 printf("Código: %s\n", codigo1);
 printf("Cidade: %s\n", cidade1);
 printf("População: %d\n", populacao1);
-printf("Área"
+printf("Área: %.2f\n", area1);
+printf("PIB: %.2f\n", pib1);
+printf("Número de pontos turísticos: %d\n", pontos_turisticos1);
 
-
+//==== Exibição da carta 2 ====
+printf("\n-- Carta 2 --\n");
+printf("Estado: %c\n", estado2);
+printf("Código: %s\n", codigo2);
+printf("Cidade: %s\n", cidade2);
+printf("População: %d\n", populacao2);
+printf("Área: %.2f\n", area2);
+printf("PIB: %.2f\n", pib2);
+printf("Número de pontos turísticos: %d\n", pontos_turisticos2);
 
 
 
