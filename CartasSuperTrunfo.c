@@ -75,7 +75,7 @@ DESCRIÇÃO: Cadastra e exibe duas cartas do Super trunfo
   printf("Digite a área em Km² (Ex: 1550.3): ");
   scanf("%f" , &area2);
 
-  printf("Digite o PIB em bilhôes (ex:496,20): ");
+  printf("Digite o PIB em bilhôes (ex:496.20): ");
   scanf("%f" , &pib2);
 
   printf("Digite o número de  pontos turisticos: ");
@@ -90,9 +90,9 @@ DESCRIÇÃO: Cadastra e exibe duas cartas do Super trunfo
 printf("\n-- Carta 1 --\n");
 printf("Estado: %c\n", estado1);
 printf("Código: %s\n", codigo1);
-printf("Cidade: %s\n", cidade1);
+printf("Nome da cidade: %s\n", cidade1);
 printf("População: %d\n", populacao1);
-printf("Área: %.2f\n", area1);                // .2f = 2 casas decimais
+printf("Área em Km²: %.2f\n", area1);                // .2f = 2 casas decimais
 printf("PIB: %.2f\n", pib1);
 printf("Número de pontos turísticos: %d\n", pontos_turisticos1);
 
@@ -100,13 +100,13 @@ printf("Número de pontos turísticos: %d\n", pontos_turisticos1);
 printf("\n-- Carta 2 --\n");
 printf("Estado: %c\n", estado2);
 printf("Código: %s\n", codigo2);
-printf("Cidade: %s\n", cidade2);
+printf("Nome da cidade: %s\n", cidade2);
 printf("População: %d\n", populacao2);
-printf("Área: %.2f\n", area2);
+printf("Área em Km²: %.2f\n", area2);
 printf("PIB: %.2f\n", pib2);
 printf("Número de pontos turísticos: %d\n", pontos_turisticos2);
 
 // ========== FIM DO PROGRAMA ==========
 
 return 0;                 // Retorna 0 indicando execução bem-sucedida
-} 
+}
